@@ -1,0 +1,88 @@
+*{margin: 0;padding: 0;}
+ul{
+    display: inline-block;
+}
+.heard1{
+    height: 46px;
+    width: 1349px; 
+    background: #272727;
+    position: relative;
+}
+.heard2>p{
+    float: left;
+    display:block;
+    position: absolute;
+    top: 13px;
+}
+.heard2>:first-child{
+    left: 50px;
+}
+.heard2>:last-child{
+    left:200px;
+}
+.heard2,.heard3{
+    font-size: 7px;
+    color: #aaaaaa;
+}
+.heard3{
+    float: right;
+    margin: 7px 60px 0px 0;
+    
+}
+.heard3>a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+.heard3 img{
+    width: 18px;
+    height: 18px;
+}
+.heard4{
+    width: 1349px;
+    height: 98px;
+    background: black;
+    border-bottom:0.1rem solid #02f8fc;
+}
+.heard40{
+    width: 236px;
+    height: 50px;
+    display: inline-block;
+    margin: 25px 0 0 55px;
+}
+.heard4>ul{
+    margin-left: 70px;
+}
+.heard4 ul>li{         
+    float: left;     
+    margin-left: 35px;  
+    margin-bottom: 14px;
+}
+.heard4 a{
+    color: #aaaaaa;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+.heard4 input{
+    float:right;
+    height: 35px;
+    background: black;
+    margin-left:280px ;
+    margin: 35px 80px 0 0;
+    border: 0.01rem solid #aaaaaa;
+    padding-left: 5px;
+}
+.heard4 input:focus {
+    outline:none;
+    border: 0.01rem solid #02f8fc;
+    color: #aaaaaa;
+}
+.heard41{
+    width:20px;
+    height:20px;
+    position: absolute;
+    margin: 43px 0px 0 145px;
+} 
+.heard5{
+    float: right;
+}

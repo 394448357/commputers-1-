@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;}
+a{
+    color: black;
+    text-decoration: none;
+}
+.login1{
+    width: 1349px; 
+    height: 695px;
+    background: #f5f5f5;
+}
+.login1_1{
+    width: 336px;
+    height: 500px;
+    position: absolute; top: 60px; 
+    left: 520px;
+}
+.login1_1>h2{
+    margin-top: 15px;
+}
+.login1_1>img{
+    margin-left: 65px; 
+}
+.login1_1>span{
+    font-size: 10px;
+    margin-left: 10px;
+    display: none; 
+}
+/* .value_1{
+    display: none; 
+} */
+.login1_1>input{
+    width: 300px; 
+    height: 35px; 
+    margin-left: 8px; 
+    margin-top: 20px; 
+    border: 0.05rem solid #aaaaaa ;
+    border-radius:0.2rem;
+    outline: none; /*消除默认点击蓝色边框效果*/
+}
+.checkbox_1{
+    font-size: 0.9rem; 
+    color: #666666; 
+    display: block; 
+    margin-left: 9px; 
+    margin-top: 10px;
+}
+.login2_1{
+    height: 125px;
+    width: 326px;
+    margin-top: 20px;
+    border-top:0.01rem solid #aaaaaa;
+}
+.login2_1>button{
+    display: inline-block;
+    width: 304px;
+    height: 35px;
+    margin-left: 7px;
+    border-radius: 0.4rem;
+    border: 0.01rem solid #ffffff;
+    text-decoration: none;
+    cursor: pointer;/*鼠标小手点击*/
+    outline: none; /*消除默认点击蓝色边框效果*/
+}
+#regbtn{
+    margin-top: 15px;
+    background-color: #00eef3;
+    border: 0.1rem solid #f5f5f5;
+}
+.login2_3{
+    margin-top: 5px;
+    background-color: #ffffff;
+    border: 0.1rem solid #ffffff;  
+}
+.login3_1{
+    font-size:0.7rem;
+    float:right;
+    margin-right: 25px;
+}
+.reg_fail{
+    color:#ce4e4e;
+    display:block ;
+}
+.reg_suc{
+    color:#9BC53D;
+    display:block;
+}
+  
